@@ -12,7 +12,7 @@
   <div class="container">
     <form class="calculator">
       <input type="text" readonly class="value" id="input">
-      <span class="num clear" onclick="clean()">C</span>
+      <span class="num clear" onclick="clearInput()">C</span>
       <span class="num back" onclick="deleteArrow()">&larr;</span>
       <span class="num" onclick="insert('/')">/</span>
       <span class="num" onclick="insert('*')">*</span>
@@ -30,7 +30,7 @@
       <span class="num" onclick="insert('0')">0</span>
       <span class="num" onclick="insert('00')">00</span>
       <span class="num" onclick="insert('.')">.</span>
-      <span class="num eval" onclick="res()">=</span>
+      <span class="num eval" onclick="result()">=</span>
     </form>
   </div>
 
