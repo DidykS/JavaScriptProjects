@@ -8,8 +8,31 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-  
+  <!-- Creaiting calculator -->
+  <div class="container">
+    <form class="calculator">
+      <input type="text" readonly class="value" id="input">
+      <span class="num clear" onclick="clean()">C</span>
+      <span class="num back" onclick="deleteArrow()">&larr;</span>
+      <span class="num" onclick="insert('/')">/</span>
+      <span class="num" onclick="insert('*')">*</span>
+      <span class="num" onclick="insert('7')">7</span>
+      <span class="num" onclick="insert('8')">8</span>
+      <span class="num" onclick="insert('9')">9</span>
+      <span class="num" onclick="insert('-')">-</span>
+      <span class="num" onclick="insert('4')">4</span>
+      <span class="num" onclick="insert('5')">5</span>
+      <span class="num" onclick="insert('6')">6</span>
+      <span class="num plus" onclick="insert('+')">+</span>
+      <span class="num" onclick="insert('1')">1</span>
+      <span class="num" onclick="insert('2')">2</span>
+      <span class="num" onclick="insert('3')">3</span>
+      <span class="num" onclick="insert('0')">0</span>
+      <span class="num" onclick="insert('00')">00</span>
+      <span class="num" onclick="insert('.')">.</span>
+      <span class="num eval" onclick="res()">=</span>
+    </form>
+  </div>
 
   <script src="main.js" ></script>
 </body>
