@@ -4,15 +4,15 @@ let authortext = document.getElementById("author");
 
 // Creating an array with quotes and authors
 let quotes = [
-  ['"Життя – як коробка шоколадних цукерок. Ніколи не знаєш, що всередині."','Форест Гамп'],
-  ['"Їсти подано, сідайте жерти, будь ласка!"', 'Джентельмени удачі'],
-  ['"Якщо умієш щось, не роби цього безкоштовно."', 'The Dark Knight'],
-  ['"Час, втрачений із задоволенням, не вважається втраченим."', 'Джон Леннон'],
-  ['"Я більше не беру участь у війнах. Я спостерігаю за бджілками."', 'Надприродне'],
-  ['"Подорожуй тільки з тими, кого любиш."', 'Ернест Хумінгуей'],
-  ['"Все можна пережити, якщо підібрати потрібну пісню."', 'Курт Кобейн'],
-  ['"Краса в очах того, хто дивиться."', 'Оскар Уальд'],
-  ['"Серце матері – глибока прірва, на дні якої ви завжди знайдете прощення."', 'Оноре де Бальзак']
+  ['“Never let the fear of striking out keep you from playing the game.”','Babe Ruth'],
+  ['“Money and success don’t change people; they merely amplify what is already there.”', 'Will Smith'],
+  ['“Get busy living or get busy dying.”', 'Stephen King'],
+  ['“Life is what happens when you’re busy making other plans.”', 'John Lennon'],
+  ['“Your time is limited, so don’t waste it living someone else’s life. Don’t be trapped by dogma – which is living with the results of other people’s thinking.”', 'Steve Jobs'],
+  ['“The whole secret of a successful life is to find out what is one’s destiny to do, and then do it.”', ' Henry Ford'],
+  ['“Live for each second without hesitation.”', ' Elton John'],
+  ['“Life would be tragic if it weren’t funny.”', 'Stephen Hawking'],
+  ['“I believe every human has a finite number of heartbeats. I don’t intend to waste any of mine.”', 'Neil Armstrong ']
 ]
 
 // The listener hung a click on the button
