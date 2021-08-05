@@ -21,32 +21,32 @@ h1 {
   align-items: center;
   width: 100%;
   height: 100vh;
- }
+}
 
- .list {
+.list {
    position: fixed;
- }
+}
 
- .form {
+.form {
    display: flex;
    margin-bottom: 30px;
 
    border: 2px solid black;
- }
+}
  
- .input {
+.input {
    width: 300px;
    padding-left: 10px;
 
    font-size: 14px;
    font-weight: 700;
- }
+}
 
- .input:focus {
+.input:focus {
   outline: none;
 }
 
- .btn {
+.btn {
    display: block;
    padding: 10px;
 
@@ -57,28 +57,42 @@ h1 {
 
     border: none;
    background-color: #10100e;
- }
+}
 
- .btn:focus {
+.btn:focus {
    outline: none;
- }
+}
 
- .todos {
+.todos {
    display: flex;
    margin-bottom: 30px;
 
    border: 2px solid black;
- }
+}
 
- .work {
+.work {
    width: 80%;
    padding: 10px;
    
    background-color: #fff;
- }
+}
 
- .btn--red {
+.btn--red {
    width: 23%;
 
    background-color: red;
- }
+}
+
+.notification {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 1rem 2rem;
+  margin: 0.5rem;
+
+  font-size: 20px;
+  color: red;
+}
