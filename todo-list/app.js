@@ -47,3 +47,12 @@ function checked(event) {
     target.style.textDecoration = "line-through"
   }
 }
+
+// This function removes the note from the page.
+function removeWork(e) {
+  target = e.target;
+  if(!target.classList.contains("remove")) {
+    return 0;
+  }
+  target.closest(".todos").remove()
+}
