@@ -24,6 +24,9 @@ add.addEventListener("click", function() {
   }
 })
 
+work.addEventListener("click", checked)
+work.addEventListener("click", removeWork)
+
 // This function creates a notification block If the user has not entered text in the input field and removes it after 3 sseconds.
 function createNotife() {
   const notif = document.createElement('div')
@@ -37,3 +40,10 @@ function createNotife() {
   }, 3000)
 }
 
+// This function checks if work is was did. If the true, a class text-decoration: line-through is added.
+function checked(event) {
+  target = event.target;
+  if(target.className === "work") {
+    target.style.textDecoration = "line-through"
+  }
+}
