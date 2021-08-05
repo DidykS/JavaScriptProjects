@@ -23,3 +23,17 @@ add.addEventListener("click", function() {
     input.value = "";
   }
 })
+
+// This function creates a notification block If the user has not entered text in the input field and removes it after 3 sseconds.
+function createNotife() {
+  const notif = document.createElement('div')
+  notif.innerHTML += "<span>Please, fill in the input field</span>"
+  notif.classList.add('notification')
+
+  document.querySelector("body").appendChild(notif)
+
+  setTimeout(() => {
+      notif.remove()
+  }, 3000)
+}
+
