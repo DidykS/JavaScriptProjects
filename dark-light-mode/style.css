@@ -14,10 +14,16 @@
 
   background-color: #fff;
   color: #000;
+
+  transition: background 0.5s linear;
 }
 
 .container.dark {
-  background-color: #1d2026;
+  background: #1d2026;
+  color: #fff;
+}
+
+.container.dark .nav__menu--item a {
   color: #fff;
 }
 
@@ -88,7 +94,7 @@
   transition: transform 0.2s linear;
 }
 
-.ball.on {
+.ball.check {
   transform: translateX(24px);
 }
 
@@ -111,6 +117,7 @@
   width: 700px;
   margin-left: -10px;
   opacity: 0;
+  transition: opacity 0.5s linear;
 
   transform: translateX(-50%);
 }
@@ -119,4 +126,8 @@
   position: absolute;
   top: 0;
   right: 50px;
+}
+
+.light.on {
+  opacity: 1;
 }
