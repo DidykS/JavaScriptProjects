@@ -55,8 +55,9 @@ h1 {
    color: #fff;
    text-transform: uppercase;
 
-    border: none;
+   border: none;
    background-color: #10100e;
+   cursor: pointer;
 }
 
 .btn:focus {
@@ -81,6 +82,7 @@ h1 {
    width: 23%;
 
    background-color: red;
+   cursor: pointer;
 }
 
 .notification {
