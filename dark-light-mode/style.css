@@ -6,6 +6,11 @@
   box-sizing: border-box;
 }
 
+a {
+  text-decoration: none;
+  color: #000;
+}
+
 .container {
   position: relative;
   min-height: 100vh;
@@ -23,7 +28,7 @@
   color: #fff;
 }
 
-.container.dark .nav__menu--item a {
+.container.dark a {
   color: #fff;
 }
 
@@ -63,11 +68,6 @@
   list-style-type: none;
   text-transform: uppercase;
   font-weight: 600;
-}
-
-.nav__menu--item a {
-  text-decoration: none;
-  color: #000;
 }
 
 .switcher {
@@ -143,4 +143,28 @@
 
 .light.on {
   opacity: 1;
+}
+
+.text__section {
+  max-width: 600px;
+  margin-top: 7%;
+  margin-left: 50%;
+}
+
+.text__section--title {
+  font-size: 80px;
+  font-weight: 600;
+}
+
+.text__section--btn {
+  display: inline-block;
+  margin-top: 30px;
+  padding: 14px 40px;
+
+  background: #00986f;
+  border-radius: 30px;
+
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
 }
