@@ -34,10 +34,21 @@
 }
 
 .nav__logo {
-  width: 50px;
+  width: 200px;
   margin-right: 50px;
 
+  font-size: 35px;
+  font-weight: 900;
+
   cursor: pointer;
+}
+
+.container.dark .nav__logo--span1 {
+  color: #fff;
+}
+
+.nav__logo--span2 {
+  color: #00986f;
 }
 
 .nav__menu {
@@ -50,6 +61,8 @@
   display: inline-block;
 
   list-style-type: none;
+  text-transform: uppercase;
+  font-weight: 600;
 }
 
 .nav__menu--item a {
