@@ -111,7 +111,7 @@
   transform: translateX(24px);
 }
 
-.lamp__container {
+.lamp__section {
   position: absolute;
   top: -150px;
   left: 25%;
