@@ -9,7 +9,8 @@ let remove = document.querySelector("#remove")
 // After that, I check if the user has entered the text in the input field.
 // If not, the createNotife() function is called.
 // Else, the note is added to the page.
-add.addEventListener("click", function() {
+add.addEventListener("click", function(e) {
+  e.preventDefault()
   let addlist = `<div class="todos">
   <div class="work">${input.value}</div>
   <button class="remove btn btn--red" id="remove" type="button">remove</button>
