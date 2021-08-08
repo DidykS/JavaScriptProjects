@@ -12,6 +12,7 @@ Project | Live demo
 [Dark Light Mode](https://github.com/DidykS/JavaScriptProjects/tree/master/dark-light-mode) | [Live Demo](https://didyks.github.io/JavaScriptProjects/dark-light-mode/)
 [Random Color](https://github.com/DidykS/JavaScriptProjects/tree/master/random-color) | [Live Demo](https://didyks.github.io/JavaScriptProjects/random-color/)
 [Letter Counter](https://github.com/DidykS/JavaScriptProjects/tree/master/letter-counter) | [Live Demo](https://didyks.github.io/JavaScriptProjects/letter-counter/)
+[Live Search](https://github.com/DidykS/JavaScriptProjects/tree/master/live-search) | [Live Demo](https://didyks.github.io/JavaScriptProjects/live-search/)
 
 
 
