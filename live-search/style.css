@@ -14,7 +14,16 @@ body {
 .container {
   height: 100vh;
   display: flex;
-  align-items: center;
+  align-items: start;
   justify-content: center;
   overflow: hidden;
+}
+
+.search__box {
+  width: 900px;
+  padding: 25px;
+  overflow: hidden;
+
+  border-radius: 5px;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
 }
