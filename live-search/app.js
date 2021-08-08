@@ -14,6 +14,7 @@ getUsers()
 function toHtml(data) {
   data.map(item => {
     let li = document.createElement("li")
+    li.classList.add("user")
     userList.push(li)
 
     li.innerHTML = `

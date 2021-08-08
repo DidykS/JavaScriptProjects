@@ -60,3 +60,33 @@ body {
   outline: none;
 }
 
+.search__box--users {
+  max-height: 500px;
+  overflow: auto;
+
+  list-style-type: none;
+  background-color: #fff;
+}
+
+.user{
+  display: flex;
+  padding: 20px;
+}
+
+.user:not(:last-child) {
+  border-bottom: 1px solid #eee;
+}
+
+.users__info {
+  margin-left: 10px;
+}
+
+.users__info h4 {
+  margin: 0 0 10px;
+}
+
+.users__info p {
+  font-size: 14px;
+}
+
+
