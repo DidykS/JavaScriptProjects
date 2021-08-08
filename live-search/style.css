@@ -21,9 +21,42 @@ body {
 
 .search__box {
   width: 900px;
-  padding: 25px;
   overflow: hidden;
 
   border-radius: 5px;
   box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
 }
+
+.search__box--header {
+  padding: 30px 20px;
+  
+  color: #fff;
+  background-color: #3e57db;
+}
+
+.search__box--subtitle {
+  display: block;
+  margin: 5px 0 20px;
+  opacity: 0.8;
+}
+
+.search__box--input {
+  width: 100%;
+  padding: 10px 15px;
+
+  font-size: 18px;
+  color: #fff;
+
+  border: 0;
+  border-radius: 50px;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.search__box--input::placeholder {
+  color: #f8f9fd;
+}
+
+.search__box--input:focus {
+  outline: none;
+}
+
