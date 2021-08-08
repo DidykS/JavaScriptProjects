@@ -3,7 +3,10 @@ const result = document.querySelector("#users") // ul
 
 const userList = []
 
-// Method fetch()
+/*
+  Method fetch()
+  The Fetch API provides an interface for fetching resources (including across the network).
+*/
 async function getUsers() {
   const response = await fetch("https://jsonplaceholder.typicode.com/users")
   const data = await response.json()
@@ -11,6 +14,9 @@ async function getUsers() {
 }
 getUsers()
 
+/*
+  in this function, I output the user's list to page.
+*/
 function toHtml(data) {
   data.map(item => {
     let li = document.createElement("li")
@@ -27,4 +33,17 @@ function toHtml(data) {
     result.appendChild(li)
   })
 }
+
+input.addEventListener("keyup", function(event) {
+  let target = event.target.value.toLowerCase()
+
+  userList.forEach(item => {
+    if (item.innerText.toLowerCase().includes(target)) {
+      item.classList.remove("hide")
+    }
+    else {
+      item.classList.add("hide")
+    }
+  })
+})
 

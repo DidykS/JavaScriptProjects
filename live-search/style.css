@@ -73,6 +73,10 @@ body {
   padding: 20px;
 }
 
+.user.hide {
+  display: none;
+}
+
 .user:not(:last-child) {
   border-bottom: 1px solid #eee;
 }
