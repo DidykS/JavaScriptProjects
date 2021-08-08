@@ -34,6 +34,9 @@ function toHtml(data) {
   })
 }
 
+/*
+  Here, I use key events and check the user list, which input to input field.
+*/
 input.addEventListener("keyup", function(event) {
   let target = event.target.value.toLowerCase()
 
