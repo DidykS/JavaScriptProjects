@@ -6,11 +6,16 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: "Roboto", sans-serif;
+}
+
 .main {
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+  overflow: hidden;
   padding: 25px;
 }
 
@@ -41,6 +46,7 @@
   flex-direction: column;
   align-items: center;
   padding: 15px;
+  margin-top: 40px;
 
   border-radius: 5px;
   box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
@@ -60,9 +66,45 @@
   border-radius: 50%;
 }
 
+.review__author {
+  margin: 10px 0;
+}
+
+.review__job {
+  position: relative;
+  margin-bottom: 15px;
+
+  /* color:red; */
+  text-transform: uppercase;
+}
+
+.review__job::before {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+
+  background-color: red;
+}
+
 .review__info {
   width: 400px;
 
   text-align: center;
   opacity: 0.8;
+}
+
+.review__btn {
+  margin-top: 20px;
+}
+
+.btn {
+  padding: 5px 10px;
+  margin: 0 5px;
+  cursor: pointer;
+
+  border: 0;
+  border-radius: 5px;
 }
