@@ -36,7 +36,6 @@ body {
 .countdown__title {
   text-transform: uppercase;
   font-size: 40px;
-  font-weight: 900;
   color: #333;
 }
 
@@ -92,3 +91,72 @@ body {
   content: "Seconds "; 
 }
 
+
+/* Media */
+@media (max-width: 770px) {
+  .countdown {
+    width: 500px;
+    height: 250px;
+    padding: 20px;
+  }
+
+  .countdown__title {
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #333;
+  }
+
+  .countdown__body {
+    display: flex;
+    margin-top: 15px;
+  }
+
+  .countdown__body--item {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    margin: 0 10px;
+  
+    text-align: center;
+    line-height: 80px;
+    font-size: 40px;
+    font-weight: 500;
+    color: #fff;
+  
+    background: #333;
+  }
+}
+
+@media (max-width: 575px) {
+  .countdown {
+    width: 350px;
+    height: 200px;
+    padding: 10px;
+  }
+
+  .countdown__title {
+    text-transform: uppercase;
+    font-size: 25px;
+    color: #333;
+  }
+
+  .countdown__body {
+    display: flex;
+    margin-top: 15px;
+  }
+
+  .countdown__body--item {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    margin: 0 5px;
+  
+    text-align: center;
+    line-height: 60px;
+    font-size: 30px;
+    font-weight: 500;
+    color: #fff;
+  
+    background: #333;
+  }
+}

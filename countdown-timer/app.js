@@ -4,7 +4,7 @@ const minutesText = document.querySelector("#minutes")
 const secondsText = document.querySelector("#seconds")
 
 // I take the target date.
-const targetDate = new Date("Aug 09 2021 14:05:00")
+const targetDate = new Date("Jan 01 2022 00:00:00")
 
 // This function calculates how many days are left until the target date.
 function countTime() {
