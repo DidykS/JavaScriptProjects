@@ -19,6 +19,33 @@ const persons = [
     isMale: false,
     job: "Web developer",
     text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi itaque quidem officiis iste consequuntur ea. Animi itaque quidem officiis iste consequuntur ea."
+  },
+  {
+    id: 4,
+    name: "Leo Turtle",
+    isMale: true,
+    job: "front-end",
+    text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi itaque quidem officiis iste consequuntur ea. Animi itaque quidem officiis iste consequuntur ea."
+  },
+  {
+    id: 5,
+    name: "Dom Toretto",
+    isMale: true,
+    job: "Ricer",
+    text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi itaque quidem officiis iste consequuntur ea. Animi itaque quidem officiis iste consequuntur ea."
+  },{
+    id: 6,
+    name: "Santa Monica",
+    isMale: false,
+    job: ".net developer",
+    text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi itaque quidem officiis iste consequuntur ea. Animi itaque quidem officiis iste consequuntur ea."
+  }
+  ,{
+    id: 7,
+    name: "Elisa Toruno",
+    isMale: false,
+    job: "Web developer",
+    text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi itaque quidem officiis iste consequuntur ea. Animi itaque quidem officiis iste consequuntur ea."
   }
 ]
 
@@ -47,8 +74,6 @@ prev.addEventListener("click", function() {
   }
   showPerson(currentPerson)
 })
-
-// showPerson(currentPerson)
 
 function showPerson(person) {
   const item = persons[person]
