@@ -57,8 +57,10 @@ const img = document.querySelector("#review__img")
 const prev = document.querySelector("#prev")
 const next = document.querySelector("#next")
 
+// I get the current person from an array
 let currentPerson = 0
 
+// The next click event shows the next person from the array
 next.addEventListener("click", function() {
   currentPerson++
   if (currentPerson > persons.length - 1) {
@@ -67,6 +69,7 @@ next.addEventListener("click", function() {
   showPerson(currentPerson)
 })
 
+// The prev click event shows the previous  person from the array.
 prev.addEventListener("click", function() {
   currentPerson--
   if (currentPerson < 0) {
@@ -75,6 +78,7 @@ prev.addEventListener("click", function() {
   showPerson(currentPerson)
 })
 
+// The showPerson function shows the current person
 function showPerson(person) {
   const item = persons[person]
 
