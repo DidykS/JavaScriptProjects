@@ -1,4 +1,4 @@
-# HTML/CSS and JavaScript projects
+# My JavaScript projects
 
 ---
 
