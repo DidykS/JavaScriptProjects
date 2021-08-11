@@ -14,7 +14,7 @@ Project | Live demo
 [Letter Counter](https://github.com/DidykS/JavaScriptProjects/tree/master/letter-counter) | [Live Demo](https://didyks.github.io/JavaScriptProjects/letter-counter/)
 [Live Search](https://github.com/DidykS/JavaScriptProjects/tree/master/live-search) | [Live Demo](https://didyks.github.io/JavaScriptProjects/live-search/)
 [Countdown Timer](https://github.com/DidykS/JavaScriptProjects/tree/master/countdown-timer) | [Live Demo](https://didyks.github.io/JavaScriptProjects/countdown-timer/)
-[Customer Reviews](https://github.com/DidykS/JavaScriptProjects/tree/master/reviews) | [Live Demo](https://didyks.github.io/JavaScriptProjects/reviews/)
+[Responsive Navbar](https://github.com/DidykS/JavaScriptProjects/tree/master/responsive-navbar) | [Live Demo](https://didyks.github.io/JavaScriptProjects/responsive-navbar/)
 
 
 
