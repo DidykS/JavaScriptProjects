@@ -9,6 +9,8 @@
 body {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
+
+  background: blue;
 }
 
 /* Container */
@@ -27,6 +29,7 @@ body {
 .header__inner {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 35px 0;
 
   border-bottom: 1px solid #515369;
@@ -34,13 +37,41 @@ body {
 
 .header__logo {
   color: #fff;
-  text-transform: uppercase;
+  font-weight: 400;
   font-size: 20px;
-  font-weight: 900;
-  opacity: 0.8;
+  text-transform: uppercase;
 }
 
 .header__logo span {
-  font-weight: 400;
+  font-weight: 900;
+  opacity: 0.7;
+}
+
+
+/* Navigation */
+
+.nav {
+  display: flex;  
+
+  font-size: 15px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.nav__link {
+  margin-left: 35px;
+
+  color: #fff;
+  text-decoration: none;
+  opacity: 0.7;
+
+  transition: opacity 0.1s linear;
+}
+
+.nav__link:first-child {
+  margin-left: 0;
+}
+
+.nav__link:hover {
   opacity: 1;
 }
