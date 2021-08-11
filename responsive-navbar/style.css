@@ -33,7 +33,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 35px 0;
+  padding: 35px 10px;
 
   border-bottom: 1px solid #515369;
 }
@@ -97,6 +97,7 @@ body {
   width: 100%;
   max-width: 970px;
   margin: 0 auto;
+  padding: 0 15px;
 
   text-align: center;
 }
@@ -116,4 +117,51 @@ body {
   font-size: 18px;
   font-weight: 400;
   color: #fff;
+}
+
+
+
+/* Media requests */
+
+@media (max-width: 1200px) {
+  .intro__title {
+    font-size: 40px;
+  }
+
+  .intro__subtitle {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 991px) {
+  .nav {
+    display: none;
+  }
+
+  .intro__title {
+    font-size: 30px;
+  }
+
+  .intro__subtitle {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 575px) {
+  .header__logo {
+    font-size: 20px;
+  }
+
+  .intro__inner {
+    max-width: 450px;
+    padding: 0 5px;
+  }
+
+  .intro__title {
+    font-size: 25px;
+  }
+
+  .intro__subtitle {
+    font-size: 12px;
+  }
 }
