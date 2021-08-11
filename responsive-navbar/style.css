@@ -23,6 +23,7 @@ body {
 .header {
   position: absolute;
   width: 100%;
+  height: 100px;
   top: 0;
   left: 0;
   z-index: 1000;
@@ -40,7 +41,7 @@ body {
 .header__logo {
   color: #fff;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 25px;
   text-transform: uppercase;
 }
 
@@ -83,6 +84,36 @@ body {
 
 .intro {
   height: 100vh;
+  padding-top: 100px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 
   background: #31344e;
+}
+
+.intro__inner {
+  width: 100%;
+  max-width: 970px;
+  margin: 0 auto;
+
+  text-align: center;
+}
+
+.intro__title {
+  margin: 0;
+
+  font-size: 65px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.intro__subtitle {
+  margin-top: 20px;
+
+  font-size: 18px;
+  font-weight: 400;
+  color: #fff;
 }
