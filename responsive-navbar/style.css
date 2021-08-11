@@ -38,6 +38,10 @@ body {
   border-bottom: 1px solid #515369;
 }
 
+.bd {
+  border: 0;
+}
+
 .header__logo {
   color: #fff;
   font-weight: 400;
@@ -79,6 +83,9 @@ body {
   opacity: 1;
 }
 
+.nav.show__menu {
+  display: flex;
+}
 
 /* Intro */
 
