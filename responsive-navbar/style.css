@@ -176,6 +176,17 @@ body {
 @media (max-width: 991px) {
   .nav {
     display: none;
+    flex-direction: column;
+    width: 100%;
+    text-align: right;
+
+    position: absolute;
+    right: 0;
+    top: 100%;
+  }
+
+  .nav__link {
+    padding: 10px 15px;
   }
 
   .burger {
