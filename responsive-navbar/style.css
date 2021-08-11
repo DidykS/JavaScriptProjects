@@ -9,8 +9,6 @@
 body {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
-
-  background: blue;
 }
 
 /* Container */
@@ -23,7 +21,11 @@ body {
 /* Header */
 
 .header {
-
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000;
 }
 
 .header__inner {
@@ -74,4 +76,13 @@ body {
 
 .nav__link:hover {
   opacity: 1;
+}
+
+
+/* Intro */
+
+.intro {
+  height: 100vh;
+
+  background: #31344e;
 }
