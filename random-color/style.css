@@ -5,10 +5,6 @@
   transition: all 0.5s linear;
 }
 
-body {
-  background-color: red;
-}
-
 .container {
   display: flex;
   justify-content: center;
