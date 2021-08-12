@@ -5,6 +5,10 @@
   transition: all 0.5s linear;
 }
 
+body {
+  background-color: red;
+}
+
 .container {
   display: flex;
   justify-content: center;
@@ -42,8 +46,6 @@
 }
 
 .random__text {
-  padding: 15px;
-  margin-top: 20px;
   width: 225px;
 
   text-align: center;
@@ -72,4 +74,29 @@
 
 .btn:focus {
   outline: none;
+}
+
+.section {
+  display: flex;
+  padding: 15px;
+  margin-top: 20px;
+}
+
+.copy {
+  width: 50px;
+  margin-left: 20px;
+  padding: 0 10px;
+  cursor: pointer;
+
+  text-transform: uppercase;
+  font-weight: 500;
+  text-align: center;
+  font-size: 15px;
+  line-height: 60px;
+
+  background-color: #fff;
+}
+
+.copy:hover {
+  background-color: #eaeaea;
 }
