@@ -15,6 +15,7 @@ Project | Live demo
 [Live Search](https://github.com/DidykS/JavaScriptProjects/tree/master/live-search) | [Live Demo](https://didyks.github.io/JavaScriptProjects/live-search/)
 [Countdown Timer](https://github.com/DidykS/JavaScriptProjects/tree/master/countdown-timer) | [Live Demo](https://didyks.github.io/JavaScriptProjects/countdown-timer/)
 [Responsive Navbar](https://github.com/DidykS/JavaScriptProjects/tree/master/responsive-navbar) | [Live Demo](https://didyks.github.io/JavaScriptProjects/responsive-navbar/)
+[Auto Text](https://github.com/DidykS/JavaScriptProjects/tree/master/auto-text) | [Live Demo](https://didyks.github.io/JavaScriptProjects/auto-text/)
 
 
 
