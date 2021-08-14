@@ -132,3 +132,46 @@ ul li {
   display: none;
 }
 
+
+/* media requests */
+@media (max-width: 768px) {
+  .box {
+    width: calc(33.33333% - 40px);
+    height: 150px;
+    margin: 20px;
+  
+    line-height: 150px;
+    font-size: 38px;
+  }
+}
+
+@media (max-width: 545px) {
+  .box {
+    width: calc(33.33333% - 20px);
+    height: 100px;
+    margin: 10px;
+  
+    line-height: 100px;
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 320px) {
+  .filter__nav {
+    margin-bottom: 20px;
+  }
+
+  .filter__nav ul li {
+    padding: 8px 10px;
+    margin-left: 10px;
+  }
+
+  .box {
+    width: calc(33.33333% - 10px);
+    margin: 5px;
+    height: 75px;
+
+    line-height: 75px;
+  }
+}
+
