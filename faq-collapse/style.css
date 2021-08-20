@@ -39,6 +39,10 @@ body {
   border-radius: 2px;
 }
 
+.accordion__item.active {
+  background-color: red;
+}
+
 .accordion__item:last-child {
   border-bottom: 1px solid #fff;
 }
