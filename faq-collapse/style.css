@@ -26,3 +26,44 @@ body {
   margin: 0 auto;
   padding: 0 15px;
 }
+
+/* Accordion */
+.accordion {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.accordion__item {
+  border: 1px solid #fff;
+  border-bottom: none;
+  border-radius: 2px;
+}
+
+.accordion__item:last-child {
+  border-bottom: 1px solid #fff;
+}
+
+.accordion__btn {
+  padding: 12px 20px;
+  cursor: pointer;
+
+  font-size: 16px;
+  color: #575757;
+
+  background-color: #f7f7f7;
+}
+
+.accordion__content {
+  max-height: 0;
+  overflow: hidden;
+
+  color: #333;
+  font-size: 15px;
+
+  transition: max-height 0.4s linear;
+}
+
+.accordion__text {
+  padding: 20px;
+  color: #575757;
+}
