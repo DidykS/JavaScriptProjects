@@ -18,6 +18,7 @@ Project | Live demo
 [Auto Text](https://github.com/DidykS/JavaScriptProjects/tree/master/auto-text) | [Live Demo](https://didyks.github.io/JavaScriptProjects/auto-text/)
 [Event Keycodes](https://github.com/DidykS/JavaScriptProjects/tree/master/event-keycodes) | [Live Demo](https://didyks.github.io/JavaScriptProjects/event-keycodes/)
 [Content Filter](https://github.com/DidykS/JavaScriptProjects/tree/master/content-filter) | [Live Demo](https://didyks.github.io/JavaScriptProjects/content-filter/)
+[Faq Collapse](https://github.com/DidykS/JavaScriptProjects/tree/master/faq-collapse) | [Live Demo](https://didyks.github.io/JavaScriptProjects/faq-collapse/)
 
 
 
