@@ -40,7 +40,7 @@ body {
 }
 
 .accordion__item.active {
-  background-color: red;
+  
 }
 
 .accordion__item:last-child {
