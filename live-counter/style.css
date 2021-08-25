@@ -35,7 +35,7 @@ body {
   text-align: center;
 }
 
-.counter-target {
+.counter__target {
   margin-top: 10px;
 
   font-size: 60px;
