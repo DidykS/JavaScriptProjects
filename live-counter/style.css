@@ -15,8 +15,9 @@ body {
 
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
+  color: #fff;
 
-  background: #ccc;
+  background: #5eb5d7;
 }
 
 /* Container */
@@ -25,4 +26,17 @@ body {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 15px;
+}
+
+.counter__inner {
+  display: flex;
+  justify-content: space-between;
+
+  text-align: center;
+}
+
+.counter-target {
+  margin-top: 10px;
+
+  font-size: 60px;
 }
