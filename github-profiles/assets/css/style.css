@@ -24,8 +24,8 @@ body {
           justify-content: center;
   background-color: #141c2f;
   font-family: 'Roboto', sans-serif;
-  font-size: 15px;
-  color: #e7ecec;
+  font-size: 16px;
+  color: #fff;
 }
 
 h1,
@@ -53,5 +53,72 @@ a {
   max-width: 1170px;
   margin: 0 auto;
   padding: 0 15px;
+}
+
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.form__input {
+  width: 600px;
+  padding: 25px 35px 25px 60px;
+  background: #1f2a48;
+  border-radius: 7px;
+  border: 0;
+  outline: 0;
+  font-size: 18px;
+  color: #858da4;
+}
+
+.form__input::-webkit-input-placeholder {
+  color: #858da4;
+}
+
+.form__input:-ms-input-placeholder {
+  color: #858da4;
+}
+
+.form__input::-ms-input-placeholder {
+  color: #858da4;
+}
+
+.form__input::placeholder {
+  color: #858da4;
+}
+
+.form__icon {
+  position: relative;
+  margin-right: -50px;
+  color: #0275f3;
+}
+
+.form__button {
+  display: inline-block;
+  margin-left: -93px;
+  padding: 15px 20px;
+  border: 0;
+  outline: 0;
+  background: #0275f3;
+  border-radius: 7px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.form__button:hover {
+  background: #1785fd;
 }
 /*# sourceMappingURL=style.css.map */
