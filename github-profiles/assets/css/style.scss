@@ -62,15 +62,33 @@ a {
 // MAIN
 .main {
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
+
+  &__form {
+    max-width: 600px;
+    width: 100%;
+  }
+
+  &__card {
+    max-width: 600px;
+    width: 100%;
+    margin-top: 25px;
+
+    background: $secondary;
+    border-radius: 7px;
+  }
 }
 
+// FORM
 .form {
   display: flex;
   align-items: center;
+  position: relative;
 
   &__input {
-    width: 600px;
+    width: 100%;
     padding: 25px 35px 25px 60px;
 
     background: $secondary;
@@ -87,9 +105,8 @@ a {
   }
 
   &__icon {
-    position: relative;
-    margin-right: -50px;
-
+    position: absolute;
+    left: 20px;
     color: $btn;
   }
 
@@ -110,5 +127,23 @@ a {
     &:hover {
       background: lighten($btn, 6);
     }
+  }
+}
+
+// CARD {
+.card {
+  display: flex;
+  margin-top: 25px;
+  padding: 20px;
+}
+
+.card__avatar {
+  width: 150px;
+  height: auto;
+
+  &--img {
+    width: 100%;
+
+    border-radius: 50%;
   }
 }
