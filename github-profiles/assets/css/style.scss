@@ -1,0 +1,53 @@
+// VARIABLES
+$primary: #141c2f;
+$secondary: #1f2a48;
+$btn: #0275f3;
+$text: #e7ecec;
+$small-text: #a5afc4;
+
+// MAIN STYLES
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+body {
+  margin: 0;
+  font-family: 'Barlow', sans-serif;
+  font-size: 15px;
+  background-color: $primary;
+  color: $text;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+
+  color: #000;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* CONTAINER */
+.container {
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
