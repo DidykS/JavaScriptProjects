@@ -11,9 +11,20 @@ html {
 
 body {
   margin: 0;
-  font-family: 'Barlow', sans-serif;
-  font-size: 15px;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   background-color: #141c2f;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
   color: #e7ecec;
 }
 

@@ -18,9 +18,15 @@ html {
 
 body {
   margin: 0;
-  font-family: 'Barlow', sans-serif;
-  font-size: 15px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
   background-color: $primary;
+
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
   color: $text;
 }
 
