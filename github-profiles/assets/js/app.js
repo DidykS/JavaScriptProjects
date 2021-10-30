@@ -7,11 +7,18 @@ const form = document.querySelector('#form')
 async function getUser(username) {
   const response = await fetch(APIURL + username)
   const data = await response.json()
-  console.log(data)
+
   createUserCard(data)
 }
 
 function createUserCard(user) {
+  const [month, day, year] = new Date(user.created_at)
+    .toDateString()
+    .split(' ')
+    .slice(1)
+
+  const userBlog = user.blog.split('/').slice(0, 3).join('')
+
   const userCard = `
   <div class="card">
   <div class="card__avatar">
@@ -32,7 +39,7 @@ function createUserCard(user) {
         >
       </div>
       <div class="card__info--header--date">
-        <span>${new Date(user.created_at).getMonth().toLocaleString()}</span>
+        <span>Joined ${day} ${month} ${year}</span>
       </div>
     </div>
     <span class="card__info--bio">${
@@ -58,8 +65,8 @@ function createUserCard(user) {
           user.twitter_username ? user.twitter_username : 'Not Available'
         }</a
       >
-      <a href="#" class="card__info--footer--item"
-        ><i class="fas fa-link"></i> ${user.blog}
+      <a href="${user.blog}" class="card__info--footer--item"
+        ><i class="fas fa-link"></i> ${user.blog ? userBlog : 'Not Available'}
       </a>
       <a href="#" class="card__info--footer--item"
         ><i class="fas fa-building"></i> ${
