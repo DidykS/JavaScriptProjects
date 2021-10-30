@@ -82,6 +82,6 @@ form.addEventListener('submit', (e) => {
   if (user) {
     getUser(user)
 
-    search.value = ''
+    input.value = ''
   }
 })
