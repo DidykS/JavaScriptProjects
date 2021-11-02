@@ -89,6 +89,11 @@ span {
   border-radius: 7px;
 }
 
+.main__card--error {
+  padding: 20px;
+  color: #a5afc4;
+}
+
 .form {
   display: -webkit-box;
   display: -ms-flexbox;

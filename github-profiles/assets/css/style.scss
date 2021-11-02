@@ -83,6 +83,11 @@ span {
 
     background: $secondary;
     border-radius: 7px;
+
+    &--error {
+      padding: 20px;
+      color: $small-text;
+    }
   }
 }
 

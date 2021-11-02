@@ -5,10 +5,16 @@ const card = document.querySelector('.main__card')
 const form = document.querySelector('#form')
 
 async function getUser(username) {
-  const response = await fetch(APIURL + username)
-  const data = await response.json()
+  try {
+    const response = await fetch(APIURL + username)
+    const data = await response.json()
 
-  createUserCard(data)
+    createUserCard(data)
+  } catch (error) {
+    console.error(error)
+
+    createErrorCard('No profile with this username')
+  }
 }
 
 function createUserCard(user) {
@@ -79,6 +85,15 @@ function createUserCard(user) {
   `
 
   card.innerHTML = userCard
+}
+
+function createErrorCard(message) {
+  const errorCard = `
+  <div class="main__card--error">
+    <p>${message}</p>
+  </div>`
+
+  card.innerHTML = errorCard
 }
 
 form.addEventListener('submit', (e) => {
