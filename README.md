@@ -21,3 +21,4 @@ This is the main repository for all of the projects.
 | [Faq Collapse](https://github.com/DidykS/JavaScriptProjects/tree/master/faq-collapse)           | [Live Demo](https://didyks.github.io/JavaScriptProjects/faq-collapse/)      |
 | [Live Counter](https://github.com/DidykS/JavaScriptProjects/tree/master/live-counter)           | [Live Demo](https://didyks.github.io/JavaScriptProjects/live-counter/)      |
 | [Review People](https://github.com/DidykS/JavaScriptProjects/tree/master/reviews)               | [Live Demo](https://didyks.github.io/JavaScriptProjects/reviews/)           |
+| [GitHub Profiles](https://github.com/DidykS/JavaScriptProjects/tree/master/github-profiles)     | [Live Demo](https://didyks.github.io/JavaScriptProjects/github-profiles/)   |
